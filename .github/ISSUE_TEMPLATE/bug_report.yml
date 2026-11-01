@@ -1,0 +1,91 @@
+name: Bug 反馈
+description: 渲染结果不对、动效异常、文件打不开等可复现的问题
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。提交前请先确认：
+
+        - 已阅读 `README.md` 的「已知限制」，问题不在已知范围内；
+        - 已在无痕窗口 / 断网状态下复现一次；
+        - **本 Issue 不含任何真实的 sharecode、shareId、内部接口地址或 token**（截图请打码）。
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 现象
+      description: 实际发生了什么？尽量一句话说清。
+      placeholder: 第 4 页的刻度尺顶进了左侧图版，0.89 的标注被裁掉一半。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望
+      description: 你认为正确的表现是什么？
+      placeholder: 刻度尺应完整落在右列宽度内，不越过图版边界。
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      description: 从零开始，按步骤写；能附最小内容样例最好（**脱敏后**）。
+      placeholder: |
+        1. 准备 3 页最小内容（含一张缺图）
+        2. 触发技能，输出 index.html
+        3. 打开 ?p=4
+        4. 见刻度尺越界
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / 提交
+      description: 技能版本（见 SKILL.md frontmatter 的 version）或提交哈希
+      placeholder: "0.1.0 / a1b2c3d"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: env
+    attributes:
+      label: 运行环境
+      multiple: true
+      options:
+        - 桌面 Chrome / Edge
+        - 桌面 Safari
+        - 手机横屏（iOS）
+        - 手机横屏（Android）
+        - 手机竖屏
+        - 无头截图（headless）
+        - file:// 直接打开
+        - 线上托管链接
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: 控制台报错 / 截图
+      description: 有则贴，没有写「无」。截图请先打码。
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我已搜索现有 Issue，未找到重复
+          required: true
+        - label: 本 Issue 不含真实的 sharecode / shareId / token / 内部接口地址
+          required: true
+        - label: 本 Issue 不含第三方的源码、图片或样式片段
+          required: true
