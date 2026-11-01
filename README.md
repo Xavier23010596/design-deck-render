@@ -69,7 +69,7 @@
 ### 1. 安装为 Skill
 
 ```bash
-git clone <THIS_REPO> design-deck-render
+git clone https://github.com/Xavier23010596/design-deck-render.git design-deck-render
 
 # 放进你所用的 Agent 技能目录（二选一）
 mkdir -p ~/.claude/skills/design-deck-render       # Claude Code
@@ -80,7 +80,7 @@ cp design-deck-render/SKILL.md ~/.claude/skills/design-deck-render/
 Windows（管理员 PowerShell）：
 
 ```powershell
-git clone <THIS_REPO> design-deck-render
+git clone https://github.com/Xavier23010596/design-deck-render.git design-deck-render
 $dest = "$env:USERPROFILE\.claude\skills\design-deck-render"
 New-Item -ItemType Directory -Force $dest
 Copy-Item .\design-deck-render\SKILL.md $dest

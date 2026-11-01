@@ -28,7 +28,7 @@
 项目本身**没有构建系统、没有 npm 依赖**，一个文本编辑器就能改。
 
 ```bash
-git clone <THIS_REPO>
+git clone https://github.com/Xavier23010596/design-deck-render.git
 cd design-deck-render
 ```
 

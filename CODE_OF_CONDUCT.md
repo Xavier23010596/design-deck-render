@@ -53,8 +53,8 @@ Issue 与其他贡献，并在适当时说明理由。
 
 如遇辱骂、骚扰或其他不可接受的行为，请通过以下方式联系维护者：
 
-- 邮箱：`<YOUR_EMAIL>`（标题请以 `[CONDUCT]` 开头）
-- 或在仓库中通过 **Security → Report a vulnerability** 私密提交（若不便使用邮件）
+- 在仓库中通过 **Security → Report a vulnerability** 私密提交
+- 或使用维护者 GitHub 主页公开的其他联系方式
 
 请尽量提供：发生时间、涉及对象、所在 Issue/PR 链接、截图或上下文。
 **所有投诉都会被及时、公正地审阅与调查。**
@@ -109,4 +109,4 @@ Issue 与其他贡献，并在适当时说明理由。
 社区影响分级指南参考自
 <https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines>。
 
-如对本准则有疑问，请联系 `<YOUR_EMAIL>`。
+如对本准则有疑问，请通过仓库的 Discussions 或维护者 GitHub 主页公开的联系方式提出。

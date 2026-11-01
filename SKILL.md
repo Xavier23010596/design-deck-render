@@ -2,7 +2,7 @@
 name: design-deck-render
 description: Render user-supplied structured content into a single-file, 1600x900 HTML presentation using a dark "image-archive" visual language (serif titles, hairline rules, restrained motion, native SVG figures). Use when the user wants to turn an outline, notes, or a page-by-page markdown into a shareable, offline-capable deck instead of a pptx.
 version: 0.1.0
-author: <YOUR_NAME>
+author: Xavier23010596
 license: MIT
 trigger:
   keywords:

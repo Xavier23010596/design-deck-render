@@ -14,7 +14,7 @@
 优先使用 GitHub 的私密报告通道：
 仓库页面 → **Security** → **Report a vulnerability**（Private vulnerability reporting）。
 
-如果该通道不可用，请发邮件至 `<YOUR_EMAIL>`，标题以 `[SECURITY]` 开头，内容包含：
+如果该通道不可用，请通过维护者 GitHub 主页公开的联系方式告知，标题以 `[SECURITY]` 开头，内容包含：
 
 1. 受影响的版本 / 提交哈希
 2. 复现步骤或最小复现仓库（**不要**附真实数据）
